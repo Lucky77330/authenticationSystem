@@ -93,7 +93,8 @@ const getProfile = expressAsyncHandler(async(req:IRequest,res)=>{
     if(!user){  
         invokeOperationError("errors.user.notfound");
     }
-    res.status(200).json(user);
+        const profile = await user.getProfile();
+    res.status(200).json(profile);
     }
     catch(error){
         res.status(404).json(error);
