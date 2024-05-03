@@ -26,7 +26,7 @@
                  npm start
 
 #5.  API Endpoints :-
-  1. Register User
+  ## 1. Register User
              Endpoint: api/register
              Method: POST
              Parameters:
@@ -36,7 +36,7 @@
                          password: User's password.
              Response: JSON response containing access token, refresh token, and verification code sent via email.
      
-  3. User Login
+  ## 3. User Login
              Endpoint: api/login
              Method: POST
              Parameters:
@@ -44,14 +44,14 @@
                  password: User's password.
             Response: JSON response containing access token and refresh token.
      
-  4. Verify Email
+  ## 4. Verify Email
            Endpoint: api/verify/email
            Method: GET
            Query Parameters:
                               email: User's email address.
                               email_verification_code: Verification code sent via email.
            Response: If successful, the email is verified, otherwise an error message is returned.
-  5. Get User Profile
+  ## 5. Get User Profile
            Endpoint: api/profile/
            Method: GET
            Headers: Authorization header with access token.
