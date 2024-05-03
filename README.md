@@ -1,10 +1,10 @@
                                                   # Authentication System
 
-# 1. Introduction :
-                   This project is aimed at providing a RESTful API for user authentication and profile management.
+# 1. Introduction:
+  This project is aimed at providing a RESTful API for user authentication and profile management.
                    
 # 2.  Installation:
-                   To get started with the project, follow these steps:
+   To get started with the project, follow these steps:
                    
  ## 1. Clone the repository :
                  git clone https://github.com/syadav77330/wfwegff/master
