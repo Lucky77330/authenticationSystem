@@ -60,26 +60,31 @@
            Response: JSON response containing user profile information.
   
   # Example  => 
- url =>  https://authenticationsystem-gk0p.onrender.com/api/register 
- pass parameter in body
- {
- "first_name":"arvind",
- "last_name":"kumar",
- "email":"example@gmail.com",
- "password":"Password@123"
- }
+  
+  ## Register User 
+         url =>  https://authenticationsystem-gk0p.onrender.com/api/register 
+         pass parameter in body
+        {
+         "first_name":"arvind",
+         "last_name":"kumar",
+         "email":"example@gmail.com",
+         "password":"Password@123"
+         }
  
- #login => https://authenticationsystem-gk0p.onrender.com/api/login
-  pass parameter in body
- {
- "email":"example@gmail.com",
- "password":"Password@123"
- }
+## login => 
+        https://authenticationsystem-gk0p.onrender.com/api/login
+        pass parameter in body
+       {
+          "email":"example@gmail.com",
+           "password":"Password@123"
+       }
 
-#getProfile =>  https://authenticationsystem-gk0p.onrender.com/api/profile
+## getProfile => 
+          https://authenticationsystem-gk0p.onrender.com/api/profile
           Authorization header :  bearer token <access token>  $which get from login endpoint 
 
-#verifyEmail =>  https://authenticationsystem-gk0p.onrender.com/api/verify/email
+## verifyEmail =>  
+            URL:- https://authenticationsystem-gk0p.onrender.com/api/verify/email
             Query Params:-
             key   : value 
             email :example@gmail.com
