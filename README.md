@@ -56,3 +56,6 @@
            Method: GET
            Headers: Authorization header with access token.
            Response: JSON response containing user profile information.
+
+
+  # Live Demo : https://www.loom.com/share/89711afe695b4913bacb61c6514fdde8
