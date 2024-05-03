@@ -1,0 +1,75 @@
+{
+    "401:Unauthorized": {
+        "status": 401,
+        "message": "Unauthorized"
+    },
+    "errors.params.invalid": {
+        "status": 400,
+        "message": "Request params are invalid"
+    },
+    "errors.username.short": {
+        "status": 401,
+        "message": "Username is too short"
+    },
+    "errors.username.already.exist": {
+        "status": 400,
+        "message": "Username already exist, kindly enter a new username"
+    },
+    "errors.user.signupfailed": {
+        "status": "401",
+        "message": "Signed failed"
+    },
+    "errors.user.alreadyexists": {
+        "status": "400",
+        "message": "User already registered with this email"
+    },
+    "errors.user.notfound": {
+        "status": 404,
+        "message": "User Not Found"
+    },
+    "errors.receiver.notfound": {
+        "status": 404,
+        "message": "Receiver Not Found"
+    },
+    "errors.email.verification.invalid": {
+        "status": 401,
+        "message": "Invalid or expired email verification code"
+    },
+    "errors.username.failed.moderation": {
+        "status": 400,
+        "message": "This Username is not allowed"
+    },
+    "errors.email.verification.alreadyverified": {
+        "status": 400,
+        "message": "User Email already verified"
+    },
+    "errors.invalid.token.or.network": {
+        "status": 400,
+        "message": "Invalid Token or Network entered"
+    },
+    "errors.missing.signature":{
+        "status":400,
+        "message":"Missing Signature Header"
+    },
+    "errors.invalid.signature":{
+        "status":401,
+        "message":"Invalid Signature Header"
+    },
+    "errors.access_token.notfound":{
+        "status":401,
+        "message":"Access Token Not Found"
+    },
+    "errors.invalid.password":{
+        "status":401,
+        "message":"Invalid Username or Password"
+    },
+    "errors.invalid.email":{
+        "status":401,
+        "message":"Invalid email"
+    },
+    "errors.access_token.expired.or.incorrect":{
+        "status":401,
+        "message":"Access Token Expired or incorrect"
+    }
+      
+}

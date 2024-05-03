@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", 
+    "module": "CommonJS",
+    "baseUrl": "./",
+    "paths": { 
+      "@lib/*": ["lib/*"],
+      "@models/*":["src/models/*"],
+      "@type/*":["src/types/*"],
+      "@controllers/*":["src/controllers/*"],
+      "@apis/*":["src/apis/*"],
+      "@helpers/*":["src/helpers/*"],
+      "@providers/*":["src/providers/*"],
+      "@methods/*":["src/models/methods/*"],
+      "@statics/*":["src/models/statics/*"],
+      "@config/*":["src/config/*"],
+      "@error/*":["src/errors/*"],
+      },
+         "resolveJsonModule": true,
+        "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": false,   
+    "strictFunctionTypes": false, 
+    "strictPropertyInitialization": false,   
+    "useUnknownInCatchVariables": false,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/errors/invokeOperationError.js", "src/errors/operation/operation_error.js"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}

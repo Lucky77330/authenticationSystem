@@ -1,0 +1,9 @@
+export const CONFIG ={
+    PORT:process.env.PORT,
+    MONGODB_URI:process.env.MONGODB_URI,
+    MONGO_CONFIG:process.env.MONGO_CONFIG||"local",
+    SENDER_EMAIL:process.env.SENDER_EMAIL,
+    SENDER_EMAIL_APP_PASSWORD:process.env.SENDER_EMAIL_APP_PASSWORD,
+    SENDER_EMAIL_PORT:process.env.SENDER_EMAIL_PORT,
+    SENDER_EMAIL_HOST:process.env.SENDER_EMAIL_HOST,
+}
