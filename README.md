@@ -3,15 +3,15 @@
 # 1. Introduction :
                    This project is aimed at providing a RESTful API for user authentication and profile management.
                    
-#2. Installation :
+# 2.  Installation:
                    To get started with the project, follow these steps:
                    
-              1. Clone the repository:
-                   git clone https://github.com/syadav77330/wfwegff/master
-
-              2. Install Node.js packages:
-                   npm install
-#3. Set up environment variables : 
+ ## 1. Clone the repository :
+                 git clone https://github.com/syadav77330/wfwegff/master
+  
+##  2. Install Node.js packages :
+                                   npm install
+## 3. Set up environment variables : 
                                `PORT`: Port number for the server to run on.
                                `MONGODB_URI`: MongoDB connection URI.
                                `MONGODB_CONFIG`: Configuration for MongoDB (local, AWS, Atlas, etc.).
