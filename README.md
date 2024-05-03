@@ -7,7 +7,7 @@
    To get started with the project, follow these steps:
                    
  ## 1. Clone the repository :
-                 git clone https://github.com/syadav77330/wfwegff/master
+                 git clone https://github.com/Lucky77330/authenticationSystem.git
   
 ##  2. Install Node.js packages :
                                    npm install
